@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d9ad34-0041-4a17-a65f-08ec7f209bc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/250724 알고리즘 연습.py" afterDir="false" />
+    <list default="true" id="65d9ad34-0041-4a17-a65f-08ec7f209bc0" name="Changes" comment="Changed date">
+      <change afterPath="$PROJECT_DIR$/problems/250725 문자열 뒤집기 연습.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/파이썬 알고리즘 연습.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/파이썬 알고리즘 연습.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.250722.executor&quot;: &quot;Run&quot;,
-    &quot;Python.250723 알고리즘 연습.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/berna/Downloads/studying/algorithm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.250722.executor": "Run",
+    "Python.250723 알고리즘 연습.executor": "Run",
+    "Python.250725 문자열 뒤집기 연습.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/berna/Downloads/studying/algorithm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,7 +72,20 @@
       <option name="presentableId" value="Default" />
       <updated>1753170769962</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed date">
+      <option name="closed" value="true" />
+      <created>1753362971605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753362971605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
