@@ -40,3 +40,34 @@ def products(numbers) :
 #=======================================================================
 
 # 리트코드 no.121
+# 자력 해결 실패
+nums = [7, 1, 5, 3, 6, 4]
+
+# 책이 제시한 풀이 - 브루트 포스
+def max_profit(prices) :
+    max_price = 0
+
+    for i, price in enumerate(prices) :
+        for j in range(i, len(prices)) :
+            max_price = max(prices[j] - price, max_price)
+
+    return max_price
+
+# print(max_profit(nums))
+
+# 2단 구성
+import sys
+
+def maxprofit(price) :
+    profit = 0
+    min_price = sys.maxsize
+
+    for p in price :
+        # min 함수와 max 함수로 기존 설정 값을 계속 갱신하도록 하는 방식
+        # 반복문 인자를 i, j 튜플로 받아 전개하는 것만큼 자주 나오는 패턴
+        min_price = min(min_price, p)
+        profit = max(profit, p - min_price)
+
+    return profit
+
+print(maxprofit(nums))
